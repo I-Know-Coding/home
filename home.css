@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(to right,black,#0d0d9f);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.one img{
+    position: absolute;
+    left: 30px;
+    width: 8rem;
+    margin: 20px;
+    border-radius: 2px;
+    border: 2px solid white;
+   
+}
+.links{
+    padding: 36px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    gap: 2px;
+}
+.links li{
+   
+    list-style: none;
+}
+.links li a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 16px;
+}
+h1{
+    position: absolute;
+    top: 230px;
+    font-size: 60px;
+    left: 50px;
+    color: rgb(247, 243, 250);
+}
+button{
+    padding: 16px;
+    color: rgb(242, 242, 248);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: transparent;
+}
+.nextcon{
+    display: flex;
+    justify-content: space-between;
+}
+.nextcon img{
+   position: absolute;
+    top: 140px;
+    right: 100px;
+    width: 30rem;
+    height: 25rem;
+}
+.seccon{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg,black,navy);
+}
+.couboy img{
+    width: 35rem;
+}
+.coursetxt h2{
+     position: absolute;
+     left: 60px;
+     color: white;
+    padding: 25px;
+}
+.coursetxt p{
+    position: relative;
+    top: 50px;
+    right: 2rem;
+    color: white;
+}
+.coursetxt p span{
+    font-weight: bolder;
+    color: aqua;
+    font-size: 25px;
+}
+i{
+    text-decoration: line-through;
+    color: red;
+}
+.Contact{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    color: white;
+    background:linear-gradient(45deg,black ,rgb(4, 4, 98));
+}
+.conimg img{
+    width: 35rem;
+}
+.contactinfo h1{
+    position: relative;
+    top: 50px;
+    border-bottom:4px solid green;
+    color: white;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.phone{
+    margin: 20px;
+    position: relative;
+    top: 45px;
+    width: 20rem;
+}
+.contactinfo p{
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    bottom: 250px;
+    left: 100px;
+}
+.contactinfo .one{
+    position: relative;
+    top: 35px;
+    border-radius: 25px;
+}
+.ten{
+    border-radius: 5px;
+    position: relative;
+    top: 55px;
+    left: 50px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 50rem;
+    height: 25rem;
+    background-color: white;
+}
+.phn img{
+    padding: 16px;
+    width: 20rem;
+    height: 20rem;
+}
+label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 23px;
+    font-weight: bolder;
+    color: navy;
+    padding: 18px;
+}
+input{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+color: orangered;
+caret-color: orangered;
+border-radius: 5px;
+border: 2px solid navy;
+margin: 16px;
+height: 2rem;
+width: 25rem;
+}
+.btn{
+    position: relative;
+    left: 180px;
+    width: 5rem;
+    background-color: #0d0d9f;
+}
+
+textarea{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: orangered;
+    caret-color: orangered;
+    margin: 10px;
+    border-radius: 5px;
+    border: 2px solid navy;
+    width: 25rem;
+    height: 7rem;
+}
+
+@media screen and (max-width:1200px) {
+.main{
+    width: 100%;
+    height: 120vh;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.one{
+    display: flex;
+    padding: 40px;
+}
+.links{
+    display: none;
+}
+.couboy{
+    display: none;
+}
+.conimg{
+    display: none;
+}
+form{
+    display: none;
+}
+.Contact{
+    display: none;
+}
+.text h1{
+    font-size: 40px;
+}
+.text button{
+    margin: 20px;
+}
+.run{
+    position: absolute;
+    left: -200px;
+     padding: 60px;
+     padding-top: 200px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+}
