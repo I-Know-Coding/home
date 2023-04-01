@@ -7,7 +7,7 @@
 .main{
     width: 100%;
     height: 100vh;
-    background:linear-gradient(to right,black,#0d0d9f);
+    background:linear-gradient(to right,deeppink,dodgerblue);
     color: white;
     display: flex;
     justify-content: space-between;
